@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 Challenge 15 for Butler Data Science
 
 
@@ -16,7 +16,7 @@ From the above output we can see that:
 
 1. The **vehicle length**, and **vehicle ground clearance** provide non-random amount of variance to the mpg values in the dataset -- the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype.
 
-2. The p-Value, ```p-Value: 5.35e-11```, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, also indicating that the slope is not zero.
+2. The p-Value, 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, also indicating that the slope is not zero.
 
 
 3.  This linear model has an r-squared value of 0.7149, meaning that approximately 71% of all mpg predictions will be determined by this linear model. Using this figure we can say that this regression model does predict mpg of MechaCar prototypes effectively. 
@@ -70,8 +70,8 @@ Collecting data for comparable models from major manufacturers for past 5 years 
 
 #### Hypothesis: Null and Alternative
 
- * Null Hypothesis: MechaCar is priced correctly based on its performance of key factors for its genre.
- * Alternative Hypothesis: MechaCar is NOT priced correctly based on performance of key factors for its genre.
+ * Null Hypothesis: MechaCar is priced correctly based on its performance of key factors of its competition.
+ * Alternative Hypothesis: MechaCar is NOT priced correctly based on performance of key factors of its competition.
  
 #### Statistical Tests
 Similarly to this challenge a multiple linear regression should be used to determine the factors that have the highest correlation/predictability with the list selling price and which combination of the variables has the greatest impact on selling price
